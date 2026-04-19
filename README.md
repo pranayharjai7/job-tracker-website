@@ -1,20 +1,30 @@
 # 🚀 JobTrack Marketing Website
 
-A modern, responsive landing page for the JobTrack Android app, built with Next.js 14 and Framer Motion.
+A premium, high-performance landing page for the **JobTrack Android Assistant**. Built with a modern SaaS aesthetic, this website accurately reflects the app's technical capabilities, privacy-first mission, and user journey.
+
+![JobTrack Landing Page Preview](https://raw.githubusercontent.com/pranayharjai7/JobApplicationTracker/main/JobTrackIcon.png)
+
+## ✨ Features Highlighted
+
+- **Automated Gmail Sync**: Demonstrates how the app extracts job confirmations and interview invites without user intervention.
+- **AI-Powered Insights**: Showcases the multi-provider LLV extraction layer (Groq, Gemini, etc.) that clarifies application details.
+- **Interactive Visualization**: Previews the Timeline and Heatmap features that help users visualize search intensity.
+- **Privacy First**: Dedicated, high-trust pages for the Privacy Policy and Terms of Service, mirroring the Android project's legal compliance.
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: Next.js 14 (App Router)
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
-- **Icons**: Lucide React
-- **Language**: TypeScript
+- **Core**: [Next.js 14](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Typography**: [Inter](https://fonts.google.com/specimen/Inter) (Body) & [Outfit](https://fonts.google.com/specimen/Outfit) (Headings)
 
 ## 📂 Project Structure
 
-- `/app`: App components and page routes.
-- `/components`: Reusable UI components (Navbar, Hero, Features, etc.).
-- `/public`: Static assets (App icon, splash GIF).
+- `/app`: All page routes (`/features`, `/about`, `/privacy`, `/terms`).
+- `/components`: High-fidelity UI components and interactive mockups.
+- `/public`: Branding assets and icons.
+- `tailwind.config.ts`: Customized design tokens (Indigo #5C6BC0 accent).
 
 ## 🚀 Getting Started
 
@@ -33,22 +43,22 @@ A modern, responsive landing page for the JobTrack Android app, built with Next.
 3. **Open the Site**:
    Visit [http://localhost:3000](http://localhost:3000)
 
-### Deployment (Vercel)
+### Deployment
 
-The easiest way to deploy is through Vercel:
+This project is optimized for deployment on **Vercel**. For a full guide on various hosting options (Vercel, Netlify, or Static Export), please refer to our [Hosting Guide](./hosting_guide.md).
 
-1. Push your code to a GitHub repository.
-2. Link the repository to a new project in the [Vercel Dashboard](https://vercel.com/new).
-3. Vercel will automatically detect Next.js and deploy the site.
+## 🎨 Design System
 
-## 🎨 Design Aesthetic
+The website implements a **"Linear/Stripe"** inspired aesthetic:
+- **Dark Mode First**: Clean `#09090B` background for a focused experience.
+- **Indigo Brand Palette**: Centered around `#5C6BC0` for high-impact visual hierarchy.
+- **Global Centering**: A robust `1200px` container system ensures symmetry across all viewport sizes.
+- **Subtle Glassmorphism**: High-trust UI elements using backdrop blurs and micro-interactions.
 
-The site follows the **Linear/Stripe** design language:
-- Dark mode by default (`#0A0A0B`).
-- Indigo accents (`#5C6BC0`).
-- Glassmorphism effects for navigation and cards.
-- Smooth Framer Motion reveals for hero content.
+## 🤝 Contributing
 
-## 🔒 Privacy Integration
+This website is part of the larger JobTrack ecosystem. To contribute to the Android application, please visit the [JobApplicationTracker Repository](https://github.com/pranayharjai7/JobApplicationTracker).
 
-The Privacy Policy page is styled to be high-trust and clear, matching the content of the root `PRIVACY_POLICY.md` file while providing superior readability.
+---
+
+Created with ❤️ by **Pranay Harjai**
