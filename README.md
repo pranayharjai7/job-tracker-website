@@ -7,7 +7,9 @@ A premium, high-performance landing page for the **JobTrack Android Assistant**.
 ## ✨ Features Highlighted
 
 - **Automated Gmail Sync**: Demonstrates how the app extracts job confirmations and interview invites without user intervention.
-- **AI-Powered Insights**: Showcases the multi-provider LLV extraction layer (Groq, Gemini, etc.) that clarifies application details.
+- **AI-Powered Insights**: Showcases the multi-provider LLM extraction layer (Groq, Gemini, etc.) that clarifies application details.
+- **Biometric Security**: Previews the optional hardware-backed lock features (Fingerprint/Face) that protect sensitive search data.
+- **Advanced Encryption**: Highlights the SQLCipher (AES-256) integration for the local Room database, ensuring data integrity.
 - **Interactive Visualization**: Previews the Timeline and Heatmap features that help users visualize search intensity.
 - **Privacy First**: Dedicated, high-trust pages for the Privacy Policy and Terms of Service, mirroring the Android project's legal compliance.
 

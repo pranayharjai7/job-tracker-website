@@ -53,8 +53,8 @@ export default function AboutPage() {
                   <p className="text-sm">Leveraging Coroutines and Flow for seamless background processing.</p>
                 </div>
                 <div className="p-6 rounded-2xl bg-white/5 border border-white/10">
-                  <h4 className="text-white font-bold mb-2">Privacy-First</h4>
-                  <p className="text-sm">Scanning and matching of emails happen primarily on your device.</p>
+                  <h4 className="text-white font-bold mb-2">Encrypted Storage</h4>
+                  <p className="text-sm">Your data is secured with SQLCipher (AES-256) and protected by biometric authentication.</p>
                 </div>
               </div>
             </section>

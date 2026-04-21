@@ -49,7 +49,14 @@ const features = [
     description: "Speed and privacy combined. Your data is stored in a secure on-device Room database, ensuring instant access and offline availability.",
     icon: Database,
     color: "from-blue-600/20 to-blue-400/20",
-    details: ["Android Room DB", "Encrypted storage layer", "Direct SQL querying performance"]
+    details: ["Android Room DB", "SQLCipher (AES-256) Encryption", "Direct SQL querying performance"]
+  },
+  {
+    title: "Biometric Security",
+    description: "Protect your career secrets with hardware-backed security. Optional biometric lock ensures only you can access your job application data.",
+    icon: Shield,
+    color: "from-red-500/20 to-primary/20",
+    details: ["Fingerprint / Face Unlock", "AndroidX Biometric Library", "EncryptedSharedPreferences"]
   },
   {
     title: "Multi-Account Isolation",
@@ -158,11 +165,11 @@ export default function FeaturesPage() {
               </h4>
               <div className="space-y-4">
                 {[
-                  { label: "Language", val: "Kotlin 2.0" },
+                  { label: "Language", val: "Kotlin" },
                   { label: "UI", val: "Jetpack Compose (Material 3)" },
-                  { label: "Storage", val: "Room Database (SQLite)" },
-                  { label: "DI", val: "Hilt / Dagger" },
-                  { label: "Sync", val: "WorkManager + Gmail API" },
+                  { label: "Storage", val: "Room + SQLCipher (AES-256)" },
+                  { label: "Security", val: "Biometric Auth" },
+                  { label: "Architecture", val: "MVVM / Clean Arch" },
                   { label: "AI Models", val: "Llama 3, Gemini 1.5, OpenRouter" },
                 ].map((item) => (
                   <div key={item.label} className="flex items-center justify-between py-3 border-b border-white/5">

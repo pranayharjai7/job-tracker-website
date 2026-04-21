@@ -110,6 +110,12 @@ export default function PrivacyPage() {
                   <strong>No Selling of Data</strong>: We <strong>never</strong> sell, rent, or trade your Gmail data or personal information to third parties.
                 </p>
                 <p>
+                  <strong>SQLCipher Encryption</strong>: All job application data stored in our on-device Room database is encrypted using <strong>AES-256</strong> via the SQLCipher library.
+                </p>
+                <p>
+                  <strong>Biometric Security</strong>: Users can enable an optional biometric lock (fingerprint or face recognition) to prevent unauthorized access to the application data on the device.
+                </p>
+                <p>
                   <strong>On-Device Processing</strong>: Scanning and matching of emails happen primarily on your device. We do not maintain a central server that mirrors your inbox.
                 </p>
               </div>

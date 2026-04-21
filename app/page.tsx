@@ -103,7 +103,8 @@ export default function Home() {
               </h2>
               <p className="text-lg text-muted-foreground leading-relaxed mb-8">
                 Your career data is sensitive. JobTrack processes your emails locally on-device, 
-                storing everything in a secure Room database. We never sell, rent, or trade your data.
+                storing everything in a secure **Room database** encrypted with **SQLCipher (AES-256)**. 
+                Protected by optional **Biometric Security**, your hunt stays yours.
               </p>
               <div className="flex flex-col gap-4">
                <div className="flex items-center gap-3 text-white/80">
@@ -111,6 +112,12 @@ export default function Home() {
                     <div className="w-2 h-2 rounded-full bg-green-500" />
                   </div>
                   <span>Google Limited Use Policy Compliant</span>
+               </div>
+               <div className="flex items-center gap-3 text-white/80">
+                  <div className="w-5 h-5 rounded-full bg-green-500/20 flex items-center justify-center">
+                    <div className="w-2 h-2 rounded-full bg-green-500" />
+                  </div>
+                  <span>Biometric & SQLCipher Protected</span>
                </div>
                <div className="flex items-center gap-3 text-white/80">
                   <div className="w-5 h-5 rounded-full bg-green-500/20 flex items-center justify-center">
